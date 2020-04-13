@@ -16,9 +16,8 @@ class String
 
   def count_sentences
     counter = 0
-    split_words = []
-    split_words << self.split(".","?","!")
-      counter += 1
+        if string.split(/[a-zA-Z]&&[]/)
+            counter += 1
   end
   split_words
 end
