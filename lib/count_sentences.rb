@@ -15,9 +15,7 @@ class String
   end
 
   def count_sentences
-    counter = 0
-        if string.split(/[]/)
-            counter += 1
+    string.split(/.!?/).
   end
   split_words
 end
