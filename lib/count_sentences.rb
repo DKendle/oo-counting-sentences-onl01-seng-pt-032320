@@ -15,7 +15,7 @@ class String
   end
 
   def count_sentences
-    string.split(/.!?/).reject
+    split_words = string.split(/.!?/).reject string do |string| string.empty?
   end
   split_words
 end
